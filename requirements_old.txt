@@ -1,0 +1,16 @@
+pandas
+regex
+emoji
+matplotlib
+seaborn
+plotly
+wordcloud
+networkx
+pyLDAvis
+transformers
+tqdm
+pysentimiento
+nltk
+gensim
+scipy
+whatstk

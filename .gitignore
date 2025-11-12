@@ -1,0 +1,8 @@
+chats/*
+input/*
+src/zips/*
+!input/WhatsApp Chat - sample.zip
+venv/*
+__pycache__/
+*.pyc
+*.html
