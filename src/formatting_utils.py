@@ -26,7 +26,7 @@ def get_collapsible_script():
 def chat_table_html(df, user_col='username', message_col='message', date_col='date',
                     max_height=400, metadata=False):
     """
-    Genera un HTML tipo chat estilo WhatsApp desde un DataFrame.
+    Genera un HTML tipo estilo chat.
     Cada usuario recibe un color pastel fijo. Metadatos opcionales se muestran sutilmente a la derecha.
 
     Args:

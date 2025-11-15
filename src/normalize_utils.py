@@ -233,19 +233,4 @@ def normalize_whatsapp_chats(zip_file=None, txt_file=None):
             continue
         process_text_file(txt_path)
 
-    ## --- Procesar todos los ZIP si no se pasa nada ---
-    #for zip_path in INPUT_FOLDER.glob("*.zip"):
-    #    zip_stem_clean = re.sub(r'^WhatsApp Chat -\s*', '', zip_path.stem, flags=re.IGNORECASE)
-    #    with zipfile.ZipFile(zip_path, 'r') as zf:
-    #        for txt_name in zf.namelist():
-    #            if txt_name.lower().endswith(".txt"):
-    #                tmp_path = OUTPUT_FOLDER / txt_name
-    #                if tmp_path.exists():
-    #                    print(f"El archivo {tmp_path.name} ya existe, pasando al siguiente...")
-    #                    continue
-    #                with zf.open(txt_name) as f:
-    #                    tmp_path.write_bytes(f.read())
-    #                    process_text_file(tmp_path, output_name=zip_stem_clean)
-    #                    tmp_path.unlink()
-
     print("Todos los archivos procesados.")

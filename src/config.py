@@ -5,8 +5,6 @@ CONFIG = {
     "REMOVE_STRANGE_CHARS_WHILE_NORMALIZING": True # eliminar caracteres extraños al normalizar
 }
 
-
-
 def get_config():
     """Devuelve la configuración de depuración."""
     return CONFIG
